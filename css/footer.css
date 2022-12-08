@@ -1,0 +1,43 @@
+.footer-delimeter {
+    border-top: 1px solid #DFDFDF;
+    margin: 30px 0;
+}
+
+.footer-links_orange, .footer-links_orange:hover {
+    color:  #FF6200;
+    text-decoration: none;
+    
+}
+
+.footer-links_white, .footer-links_white:hover {
+    color:  #FFffff;
+    text-decoration: none;
+}
+
+.footer-personal {
+    margin-right: -4px;
+}
+
+.footer-links_subline-orange {
+    border-bottom: 1px solid #FF6200;
+}
+
+.footer-icon {
+    max-width: 100%;
+    height: auto;
+    padding-right: 5px;
+}
+
+.footer_cart {
+    color: #FFFFFF;
+
+    background: #FF6200;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+}
+.footer_cart:hover {
+    background: #ff620090;
+    color: #FFFFFF;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+}

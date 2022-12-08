@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+   width: 100%;
+}
+.container {
+   max-width: 600px;
+   position: relative;
+   margin: 6% auto;
+}
+.prevbtn, .nextbtn {
+   position: absolute;
+   top: 50%;
+   padding: 12px;
+   margin-top: -20px;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+   transition: 0.2s ease-in;
+   border-radius: 50%;
+}
+.prevbtn:hover, .nextbtn:hover {
+   background-color: darkgrey;
+   color: rgb(0,0,0);
+}
+.nextbtn {
+   right: 0;
+}
+</style>
+</head>
+<body>
+<div class="container">
+   <div class="slide">
+      <img src="https://images.unsplash.com/photo-1609517904792-bac493d55556?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixlib=rb-1.2.1&q=80&w=700" />
+   </div>
+   <div class="slide">
+      <img src="https://images.unsplash.com/photo-1609883475382-c4c9378569e5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixlib=rb-1.2.1&q=80&w=700" />
+   </div>
+   <div class="slide">
+      <img src="https://images.unsplash.com/photo-1610258648552-fe6407d664a1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixlib=rb-1.2.1&q=80&w=700" />
+   </div>
+   <div class="slide">
+      <img src="https://images.unsplash.com/photo-1610258648552-fe6407d664a1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixlib=rb-1.2.1&q=80&w=700" />
+   </div>   
+   <div class="slide">
+      <img src="https://images.unsplash.com/photo-1611094607507-8c8173e5cf33?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixlib=rb-1.2.1&q=80&w=700" />
+   </div>
+   <a class="prevbtn" onclick="changeSlide(-1)">❮</a>
+   <a class="nextbtn" onclick="changeSlide(1)">❯</a>
+</div>
+<script>
+let slideIndex = [1,1];
+viewSlides(1);
+function changeSlide(n) {
+   viewSlides(slideIndex[0] += n);
+}
+function viewSlides(n) {
+   let ele = document.getElementsByClassName("slide");
+   if (n > ele.length) {
+      slideIndex[0] = 1
+   }      
+   if (n < 1) {
+      slideIndex[0] = ele.length
+   }
+   for (i = 0; i < ele.length; i++) {
+       ele[i].style.display = "none";   
+   }
+   ele[slideIndex[0]-1].style.display = "block";   
+}
+</script>
+</body>
+</html>

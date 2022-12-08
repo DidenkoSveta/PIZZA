@@ -1,0 +1,70 @@
+body {
+    background: 100% 0 / 100% url("../img/background-opt.jpg") repeat;
+
+    color: #FFFFFF;
+
+    align-self: center;
+
+    font-family: Gilroy;
+    font-style: normal;
+}
+
+.normal {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.medium {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.medium_light {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.big {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.medium__bold {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.sp__price {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.big_bold {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+h2 {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    padding: 0px 30px;
+}
+
+.btn {
+    padding: 6px 8px;
+}

@@ -1,0 +1,238 @@
+.cart__title {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 950;
+    font-size: 36px;
+    line-height: 56px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.cart-delimeter {
+    border-top: 1px solid #DFDFDF;
+    margin: 30px 0;
+}
+
+.cart-item__title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+
+    margin-top: 10px;
+}
+
+.cart-item__sostav {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    /* font */
+    color: #DFDFDF;
+
+    margin-top: 10px
+}
+
+.cart-item__count {
+    max-width: 7rem;
+}
+
+.count__value {
+    border: 0;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.cart-item__count *{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #5C6370;
+}
+
+.cart-item__count *:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.count__modify > * {
+    border-radius: 0;
+    border: 0;
+
+    color: black;
+}
+
+.cart-item__price {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.cart-items-info *{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.items-info__value {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+    padding-left: 1rem
+}
+
+.promo-title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.promo-block *:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.promo-value {
+    text-align: center;
+    border-radius: 0;
+    border-color: #DFDFDF;
+    border-right: none;
+    min-width: 151px;
+    max-width: 151px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* font */
+    color: #FFFFFF;
+
+    background-color: transparent;
+}
+
+.promo-value:focus {
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: #DFDFDF;
+    border-right: none;
+}
+
+.promo-btn {
+    color: #FFFFFF;
+
+    background: #FF6200;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+}
+
+.cart-sum {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.cart-sum__value {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height */
+
+    color: #FF6200;
+
+    padding-left: 22px;
+}
+
+.return-btn {
+    min-width: 217px;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    background: #F3F3F7;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #5C6370
+}
+.return-btn:hover {
+    background: #F3F3F7b0;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    color: black;
+}
+
+.complete-order-btn {
+    min-width: 217px;
+    color: #FFFFFF;
+
+    background: #FF6200;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+.complete-order-btn:hover {
+    background: #ff620090;
+    color: #FFFFFF;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+}

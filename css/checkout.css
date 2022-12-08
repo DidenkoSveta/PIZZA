@@ -1,0 +1,11 @@
+.detail-text {
+    min-width: 300px;
+    min-height: 150px;
+}
+
+.woocommerce-checkout-review-order-table {
+    width: 300px;
+}
+.woocommerce-checkout-review-order-table *{
+    text-align: center;
+}
